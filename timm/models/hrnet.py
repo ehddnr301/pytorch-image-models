@@ -45,7 +45,7 @@ default_cfgs = {
     'hrnet_w18': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-hrnet/hrnetv2_w18-8cb57bb9.pth'),
     'hrnet_w30': _cfg(
-        url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-hrnet/hrnetv2_w30-8d7f8dab.pth'),
+        url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-hrnet/hrnetv2_w30-8d7f8dab.pth', input_size=(3,540,960)),
     'hrnet_w32': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-hrnet/hrnetv2_w32-90d8c5fb.pth'),
     'hrnet_w40': _cfg(
